@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-10">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Survey</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<style>
+    body{
+        overflow-x: hidden;
+        background-color: #34ABC3;
+    }
+#questionare {
+    margin-top: 100px;
+    margin-left: 25vw;
+    margin-right: auto;
+}
+</style>
+</head>
+<body> 
+
+    <nav class="navbar" style="background-color:#D9D9D9;">
+        <div class="container">
+          <a class="navbar-brand" href="./home.html">
+            <img  src="./images/logo.png" alt="Bootstrap" width="120" height="55" >
+          </a>
+        </div>
+      </nav>
+
+<div class="container" id="questionare" style="background-color: #D9D9D9; width: 640px; padding: 15px; padding-top: 30px; border-radius: 15px; margin-top: 70px; padding-left: 30px;">
+        <div class="container" style="border-radius: 10px; background-color: #CAF0F8; width: 580px; margin-left: 0; padding-top: 15px; padding-bottom: 15px;">
+
+    <p><b>1. What type of books do you enjoy reading the most?</b></p>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="question1" id="q1a" value="Fiction novels">
+        <label class="form-check-label" for="q1a">Fiction novels</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="question1" id="q1b" value="Non-fiction books related to science or history">
+        <label class="form-check-label" for="q1b">Non-fiction books related to science or history</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="question1" id="q1c" value="Self-help or motivational books">
+        <label class="form-check-label" for="q1c">Self-help or motivational books</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="question1" id="q1d" value="Biographies or autobiographies">
+        <label class="form-check-label" for="q1d">Biographies or autobiographies</label>
+    </div>
+        </div>
+    <br>
+    <br>
+    <!-- Question 2 -->
+    <div class="container" style="border-radius: 10px; background-color:#CAF0F8; width: 580px; margin-left: 0; padding-top: 15px; padding-bottom: 15px;">
+
+    <p><b>2. When faced with a problem, what is your approach to solving it?</b></p>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="question2" id="q2a" value="Creatively thinking outside the box">
+        <label class="form-check-label" for="q2a">Creatively thinking outside the box</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="question2" id="q2b" value="Analyzing it logically and breaking it down into smaller parts">
+        <label class="form-check-label" for="q2b">Analyzing it logically and breaking it down into smaller parts</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="question2" id="q2c" value="Seeking advice from others or researching solutions">
+        <label class="form-check-label" for="q2c">Seeking advice from others or researching solutions</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="question2" id="q2d" value="Drawing from personal experiences or examples of others">
+        <label class="form-check-label" for="q2d">Drawing from personal experiences or examples of others</label>
+    </div>
+    </div>
+    <br>
+    <br>
+    <!-- Question 3 -->
+    <div class="container" style="border-radius: 10px; background-color: #CAF0F8; width: 580px; margin-left: 0; padding-top: 15px; padding-bottom: 15px;">
+
+    <p><b>3. Which of the following activities interests you the most?</b></p>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="question3" id="q3a" value="Painting or drawing">
+        <label class="form-check-label" for="q3a">Painting or drawing</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="question3" id="q3b" value="Solving mathematical equations or puzzles">
+        <label class="form-check-label" for="q3b">Solving mathematical equations or puzzles</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="question3" id="q3c" value="Participating in group discussions or debates">
+        <label class="form-check-label" for="q3c">Participating in group discussions or debates</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="question3" id="q3d" value="Writing essays or articles">
+        <label class="form-check-label" for="q3d">Writing essays or articles</label>
+    </div>
+    </div>
+    <br>
+    <br>
+        <!-- Question 4 -->
+        <div class="container" style="border-radius: 10px; background-color: #CAF0F8; width: 580px; margin-left: 0; padding-top: 15px; padding-bottom: 15px;">
+
+        <p><b>4. If you were to learn a new skill, which would you prefer?</b></p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="question4" id="q4a" value="Programming or coding">
+            <label class="form-check-label" for="q4a">Programming or coding</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="question4" id="q4b" value="Public speaking or presenting">
+            <label class="form-check-label" for="q4b">Public speaking or presenting</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="question4" id="q4c" value="Learning a new language">
+            <label class="form-check-label" for="q4c">Learning a new language</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="question4" id="q4d" value="Playing a musical instrument">
+            <label class="form-check-label" for="q4d">Playing a musical instrument</label>
+        </div>
+        </div>
+        <br>
+        <br>
+        <!-- Question 5 -->
+        <div class="container" style="border-radius: 10px; background-color: #CAF0F8; width: 580px; margin-left: 0; padding-top: 15px; padding-bottom: 15px;">
+
+    <p><b>5. What type of movies or TV shows do you enjoy watching?</b></p>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="question5" id="q5a" value="Fantasy or science fiction">
+        <label class="form-check-label" for="q5a">Fantasy or science fiction</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="question5" id="q5b" value="Documentaries or educational programs">
+        <label class="form-check-label" for="q5b">Documentaries or educational programs</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="question5" id="q5c" value="Talk shows or reality TV">
+        <label class="form-check-label" for="q5c">Talk shows or reality TV</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="question5" id="q5d" value="Dramas or biopics">
+        <label class="form-check-label" for="q5d">Dramas or biopics</label>
+    </div>
+        </div>
+    <br>
+    <br>
+    <div class="container" style="border-radius: 10px; background-color: #CAF0F8; width: 580px; margin-left: 0; padding-top: 15px; padding-bottom: 15px;">
+
+    <!-- Question 6 -->
+    <p><b>6. When working on a group project, what role do you naturally take on?</b></p>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="question6" id="q6a" value="Fantasy or science fiction">
+        <label class="form-check-label" for="q6a">Fantasy or science fiction</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="question6" id="q6b" value="Documentaries or educational programs">
+        <label class="form-check-label" for="q6b">Documentaries or educational programs</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="question6" id="q6c" value="Talk shows or reality TV">
+        <label class="form-check-label" for="q6c">Talk shows or reality TV</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="question6" id="q6d" value="Dramas or biopics">
+        <label class="form-check-label" for="q6d">Dramas or biopics</label>
+    </div>
+    </div>
+    <br>
+    <br>
+    <!-- Question 7 -->
+    <div class="container" style="border-radius: 10px; background-color: #CAF0F8; width: 580px; margin-left: 0; padding-top: 15px; padding-bottom: 15px;">
+
+    <p><b>7. How do you prefer to study for exams?</b></p>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="question7" id="q7a" value="Creating mind maps or visual aids to organize information">
+        <label class="form-check-label" for="q7a">Creating mind maps or visual aids to organize information</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="question7" id="q7b" value="Making flashcards or practicing problem-solving exercises">
+        <label class="form-check-label" for="q7b">Making flashcards or practicing problem-solving exercises</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="question7" id="q7c" value="Forming study groups and discussing the material with peers">
+        <label class="form-check-label" for="q7c">Forming study groups and discussing the material with peers</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="question7" id="q7d" value="Reading and summarizing the textbook or lecture notes">
+        <label class="form-check-label" for="q7d">Reading and summarizing the textbook or lecture notes</label>
+    </div>
+    </div>
+    <br>
+    <br>
+    <div class="container" style="border-radius: 10px; background-color: #CAF0F8; width: 580px; margin-left: 0; padding-top: 15px; padding-bottom: 15px;">
+
+        <!-- Question 8 -->
+        <p><b>8. Which of the following topics interests you the most?</b></p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="question8" id="q8a" value="Art and design">
+            <label class="form-check-label" for="q8a">Art and design</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="question8" id="q8b" value="Mathematics and computer science">
+            <label class="form-check-label" for="q8b">Mathematics and computer science</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="question8" id="q8c" value="Communication and social sciences">
+            <label class="form-check-label" for="q8c">Communication and social sciences</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="question8" id="q8d" value="Literature and language">
+            <label class="form-check-label" for="q8d">Literature and language</label>
+        </div>
+    </div>
+        <br>
+        <br>
+    <div class="container" style="border-radius: 10px; background-color: #CAF0F8; width: 580px; margin-left: 0; padding-top: 15px; padding-bottom: 15px;">
+        <!-- Question 9 -->
+    <p><b>9. If you could travel anywhere in the world, which would you choose?</b></p>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="question9" id="q9a" value="Paris; France">
+        <label class="form-check-label" for="q9a">Paris, France</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="question9" id="q9b" value="Silicon Valley; California">
+        <label class="form-check-label" for="q9b">Silicon Valley, California</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="question9" id="q9c" value="Tokyo; Japan">
+        <label class="form-check-label" for="q9c">Tokyo, Japan</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="question9" id="q9d" value="Rome; Italy">
+        <label class="form-check-label" for="q9d">Rome, Italy</label>
+    </div>
+</div>
+
+    <a><button type="button"id="submitBtn" class="btn btn-outline"style="margin-left: 35.5vw; margin-top: 7vh; background-color: #34ABC3; color:white; ">Submit survey</button></a>
+
+</div>
+
+<script>
+    document.getElementById('submitBtn').addEventListener('click', function() {
+        // Get the answers from the radio buttons for all questions
+        var answers = [];
+        var questions = document.querySelectorAll('input[type="radio"]:checked');
+        questions.forEach(function(question) {
+            answers.push(question.value);
+        });
+        console.log(answers);
+
+        const requestBody = {
+            "input_data": {
+            "columns": [
+                "What type of books do you enjoy reading the most?",
+                "When faced with a problem, what is your approach to solving it?",
+                "Which of the following activities interests you the most?",
+                "If you were to learn a new skill, which would you prefer?",
+                "What type of movies or TV shows do you enjoy watching?",
+                "When working on a group project, what role do you naturally take on?",
+                "How do you prefer to study for exams?",
+                "Which of the following topics interests you the most?",
+                "If you could travel anywhere in the world, which would you choose?"
+            ],
+            "index": [["data"]],
+            "data": []
+            }
+        };
+
+        requestBody.input_data.data.push(answers);
+
+        const requestHeaders = new Headers({"Content-Type" : "application/json"});
+
+        // Replace this with the primary/secondary key or AMLToken for the endpoint
+        const apiKey = "yTb1Ior6nfzJJ3k1IH8W5TmQLiCu0ytI";
+
+        if (!apiKey)
+        {
+            throw new Exception("A key should be provided to invoke the endpoint");
+        }
+
+        requestHeaders.append("Authorization", "Bearer " + apiKey)
+
+        // This header will force the request to go to a specific deployment.
+        // Remove this line to have the request observe the endpoint traffic rules
+        requestHeaders.append("azureml-model-deployment", "gpt-0-1");
+
+        const url = "https://gpt-api.azure-api.net/score";
+        if (questions.length === 9) {
+        fetch(url, {
+            method: "POST",
+            body: JSON.stringify(requestBody),
+            headers: requestHeaders,
+        })
+        .then((response) => { return response.json();})
+        .then((json) => {
+            let value = json[0]
+            localStorage.setItem('surveyValue', value);
+            window.location.href = "./answer.html";
+        })
+    
+        // Check if all questions are answered
+        // Assuming there are 9 questions
+            // Proceed with saving to CSV
+            var csvContent = ""; // Initialize CSV content
+    
+            // Append questions to the CSV content
+            var questionsList = [
+                "What type of books do you enjoy reading the most?",
+                "When faced with a problem what is your approach to solving it?",
+                "Which of the following activities interests you the most?",
+                "If you were to learn a new skill which would you prefer?",
+                "What type of movies or TV shows do you enjoy watching?",
+                "When working on a group project what role do you naturally take on?",
+                "How do you prefer to study for exams?",
+                "Which of the following topics interests you the most?",
+                "If you could travel anywhere in the world which would you choose?"
+            ];
+            csvContent += questionsList.join(",") + "\n"; // Append questions to the first row
+    
+            // Append answers to the CSV content
+            csvContent += answers.join(",") + "\n"; // Append answers to the second row
+    
+            // Create a blob object 
+            var blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+    
+            // Create a link element
+            //var link = document.createElement("a");
+            if (link.download !== undefined) { // feature detection
+                // Browsers that support HTML5 download attribute
+                let newUrl = URL.createObjectURL(blob);
+                link.setAttribute("href", newUrl);
+                //link.setAttribute("download", "survey_responses.csv");
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            } else {
+                // Fallback for browsers that do not support HTML5 download attribute
+                alert("Your browser does not support download attribute, please try again in a different browser.");
+            }
+        } else {
+            // Alert user to answer all questions
+            alert("Please answer all questions to proceed.");
+        }
+    });
+    </script>
+
+</body>
+</html>
