@@ -1,3 +1,3 @@
-Aska is a small project that was made by me using azure ai
-its a test that determines your future career path based pn your intereats and personality.
-Probably won't improve it in the future but none the leaa it was a fun project.
+Aska is a small project made using Azure AI
+it's a test that determines your future career path based on your interests and personality.
+I probably won't improve it in the future but it was a fun project.
